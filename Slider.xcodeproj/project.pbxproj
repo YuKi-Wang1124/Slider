@@ -13,6 +13,7 @@
 		CC7073A32695B38700EF9C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7073A12695B38700EF9C52 /* Main.storyboard */; };
 		CC7073A52695B38D00EF9C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7073A42695B38D00EF9C52 /* Assets.xcassets */; };
 		CC7073A82695B38D00EF9C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7073A62695B38D00EF9C52 /* LaunchScreen.storyboard */; };
+		CCDD16AD269C142600CF470A /* crayonfont in Resources */ = {isa = PBXBuildFile; fileRef = CCDD16AC269C142600CF470A /* crayonfont */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CC7073A42695B38D00EF9C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC7073A72695B38D00EF9C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC7073A92695B38D00EF9C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDD16AC269C142600CF470A /* crayonfont */ = {isa = PBXFileReference; lastKnownFileType = folder; path = crayonfont; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CC70739A2695B38700EF9C52 /* Slider */ = {
 			isa = PBXGroup;
 			children = (
+				CCDD16AC269C142600CF470A /* crayonfont */,
 				CC70739B2695B38700EF9C52 /* AppDelegate.swift */,
 				CC70739D2695B38700EF9C52 /* SceneDelegate.swift */,
 				CC70739F2695B38700EF9C52 /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC7073A82695B38D00EF9C52 /* LaunchScreen.storyboard in Resources */,
+				CCDD16AD269C142600CF470A /* crayonfont in Resources */,
 				CC7073A52695B38D00EF9C52 /* Assets.xcassets in Resources */,
 				CC7073A32695B38700EF9C52 /* Main.storyboard in Resources */,
 			);
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP4GBKDNYR;
 				INFOPLIST_FILE = Slider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP4GBKDNYR;
 				INFOPLIST_FILE = Slider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
